@@ -1,0 +1,35 @@
+﻿.userList {
+    max-height: 300px;
+    height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.offline {
+    color:rgb(128, 128, 128);
+}
+
+.roomInfoBox{
+    margin-top:2em;
+    width:100%;
+}
+
+.seatToolTip {
+    display: none;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+    background: rgb(128, 128, 128);
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    background: rgb(55, 90, 127);
+}

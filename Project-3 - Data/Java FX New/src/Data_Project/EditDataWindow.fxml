@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="600.0" minWidth="800.0" prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Data_Project.AnalistController">
+    <top>
+        <AnchorPane prefHeight="80.0" style="-fx-background-color: rgba(0,0,0,0.8);" BorderPane.alignment="CENTER">
+            <children>
+                <Button id="top-button" alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" mnemonicParsing="false" prefHeight="60.0" style="-fx-background-color: rgba(0,0,0,0.3);" text="TERUG" textAlignment="CENTER" textFill="WHITE" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0">
+                    <padding>
+                        <Insets left="20.0" right="20.0" />
+                    </padding>
+                    <font>
+                        <Font name="Roboto Medium" size="12.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button id="top-button" alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="20.0" layoutY="20.0" mnemonicParsing="false" onAction="#logoutButtonAction" prefHeight="60.0" style="-fx-background-color: rgba(0,0,0,0.3);" text="UITLOGGEN" textAlignment="CENTER" textFill="WHITE" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                    <font>
+                        <Font name="Roboto Medium" size="12.0" />
+                    </font>
+                    <padding>
+                        <Insets left="20.0" right="20.0" />
+                    </padding>
+                </Button>
+                <Label alignment="CENTER" contentDisplay="CENTER" layoutX="413.0" layoutY="29.0" text="ROTTERDAM CENTRAAL" textAlignment="CENTER" textFill="#ffffff49">
+                    <font>
+                        <Font name="Roboto Condensed Regular" size="18.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+    </top>
+    <center>
+        <GridPane BorderPane.alignment="CENTER">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="40.0" prefWidth="40.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="200.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="0.0" prefWidth="20.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="200.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="20.0" prefWidth="40.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="0.0" prefWidth="40.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="0.0" prefWidth="40.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="200.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="0.0" prefWidth="20.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="0.0" prefWidth="20.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="200.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="40.0" prefWidth="40.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="40.0" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="18.0" minHeight="10.0" prefHeight="18.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="15.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="15.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="200.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <Button minHeight="100.0" mnemonicParsing="false" prefWidth="499.0" style="-fx-background-color: rgba(0,0,0,0.1);" text="NIEUWE ANALYSE" GridPane.columnIndex="1" GridPane.columnSpan="3" GridPane.rowIndex="16">
+                    <font>
+                        <Font name="Roboto Medium" size="14.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="200.0" style="-fx-background-color: #3b5998;" textFill="#ffffffb2" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                    <font>
+                        <Font name="Roboto Medium" size="14.0" />
+                    </font>
+                    <GridPane.margin>
+                        <Insets />
+                    </GridPane.margin>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                    <graphic>
+                        <CheckBox alignment="CENTER" mnemonicParsing="false" prefHeight="60.0" prefWidth="200.0" selected="true" text="FACEBOOK" textFill="#ffffffbf">
+                            <font>
+                                <Font name="Roboto Medium" size="14.0" />
+                            </font>
+                        </CheckBox>
+                    </graphic>
+                </Button>
+                <AnchorPane prefHeight="50.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                    <children>
+                        <Label layoutX="42.0" layoutY="3.0" text="SOCIALE NETWERKEN" textFill="#4fc3f7">
+                            <font>
+                                <Font name="Roboto Condensed Bold" size="13.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </AnchorPane>
+                <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="200.0" style="-fx-background-color: #55ACEE;" textFill="#ffffffb2" GridPane.columnIndex="3" GridPane.rowIndex="5">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                    <font>
+                        <Font name="Roboto Medium" size="14.0" />
+                    </font>
+                    <graphic>
+                        <CheckBox alignment="CENTER" mnemonicParsing="false" prefHeight="60.0" prefWidth="200.0" selected="true" text="TWITTER" textFill="#ffffffbf">
+                            <font>
+                                <Font name="Roboto Medium" size="14.0" />
+                            </font>
+                        </CheckBox>
+                    </graphic>
+                </Button>
+                <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="200.0" style="-fx-background-color: #D50F25;" textFill="#ffffffb2" GridPane.columnIndex="3" GridPane.rowIndex="7">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                    <font>
+                        <Font name="Roboto Medium" size="14.0" />
+                    </font>
+                    <graphic>
+                        <CheckBox alignment="CENTER" mnemonicParsing="false" prefHeight="60.0" prefWidth="200.0" selected="true" text="GOOGLE" textFill="#ffffffbf">
+                            <font>
+                                <Font name="Roboto Medium" size="14.0" />
+                            </font>
+                        </CheckBox>
+                    </graphic>
+                </Button>
+                <AnchorPane prefHeight="50.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                    <children>
+                        <Label layoutX="71.0" layoutY="3.0" text="GESLACHT" textFill="#4fc3f7">
+                            <font>
+                                <Font name="Roboto Condensed Bold" size="13.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </AnchorPane>
+                <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="200.0" style="-fx-background-color: #1976D2;" textFill="#ffffffb2" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                    <font>
+                        <Font name="Roboto Medium" size="14.0" />
+                    </font>
+                    <graphic>
+                        <CheckBox alignment="CENTER" mnemonicParsing="false" prefHeight="60.0" prefWidth="200.0" selected="true" text="MAN" textFill="#ffffffbf">
+                            <font>
+                                <Font name="Roboto Medium" size="14.0" />
+                            </font>
+                        </CheckBox>
+                    </graphic>
+                </Button>
+                <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="200.0" style="-fx-background-color: #F06292;" textFill="#ffffffb2" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                    <font>
+                        <Font name="Roboto Medium" size="14.0" />
+                    </font>
+                    <graphic>
+                        <CheckBox alignment="CENTER" mnemonicParsing="false" prefHeight="60.0" prefWidth="200.0" selected="true" text="VROUW" textFill="#ffffffbf">
+                            <font>
+                                <Font name="Roboto Medium" size="14.0" />
+                            </font>
+                        </CheckBox>
+                    </graphic>
+                </Button>
+                <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="200.0" style="-fx-background-color: white; -fx-border-color: rgba(0,0,0,0.3); -fx-border-radius: 2;" textFill="#ffffffb2" GridPane.columnIndex="1" GridPane.rowIndex="11">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                    <font>
+                        <Font name="Roboto Medium" size="14.0" />
+                    </font>
+                    <graphic>
+                        <CheckBox alignment="CENTER" mnemonicParsing="false" prefHeight="60.0" prefWidth="200.0" text="ALLES" textFill="#000000bf">
+                            <font>
+                                <Font name="Roboto Medium" size="14.0" />
+                            </font>
+                        </CheckBox>
+                    </graphic>
+                </Button>
+                <DatePicker prefHeight="50.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="13" />
+                <AnchorPane prefHeight="50.0" prefWidth="200.0" GridPane.columnIndex="7" GridPane.columnSpan="3" GridPane.rowIndex="1">
+                    <children>
+                        <Label layoutX="81.0" layoutY="1.0" text="HUIDIGE SITUATIE" textFill="#4fc3f7">
+                            <font>
+                                <Font name="Roboto Condensed Bold" size="13.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </AnchorPane>
+                <AnchorPane prefHeight="185.0" prefWidth="391.0" GridPane.columnIndex="7" GridPane.rowIndex="13" />
+                <Button alignment="CENTER" mnemonicParsing="false" onAction="#UpdatedataButtonAction" prefHeight="42.0" prefWidth="165.0" style="-fx-background-color: #03A9F4;" text="Update data" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="15" />
+
+                <Label text="PERIODE" textFill="#4fc3f7" GridPane.columnIndex="1" GridPane.rowIndex="9">
+                    <font>
+                        <Font name="Roboto Condensed Bold" size="13.0" />
+                    </font>
+                </Label>
+                <PieChart id="Piechart" fx:id="Piechart" prefHeight="202.0" prefWidth="237.0" title="Social media Content" GridPane.columnIndex="3" GridPane.rowIndex="11">                  </PieChart>
+
+                <TextField id="outputTempArea" fx:id="outputTempArea" disable="true" editable="false" prefHeight="40.0" prefWidth="194.0" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+                <TextField id="outputTempDisc" fx:id="outputTempDisc" disable="true" editable="false" prefHeight="43.0" prefWidth="194.0" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+            <ImageView fx:id="weerplaatje" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+            </children>
+        </GridPane>
+    </center>
+</BorderPane>

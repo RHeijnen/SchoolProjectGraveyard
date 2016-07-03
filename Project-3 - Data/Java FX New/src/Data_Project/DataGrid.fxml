@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.cell.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="600.0" minWidth="800.0" prefHeight="810.0" prefWidth="1000.0" style="-fx-background-color: rgb(250,250,250);" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Data_Project.DataGridController">
+  <top>
+    <AnchorPane maxHeight="-Infinity" prefHeight="100.0" style="-fx-background-color: rgba(0,0,0,0.8);" BorderPane.alignment="CENTER">
+      <Button id="top-button button-back" alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" mnemonicParsing="false" prefHeight="80.0" style="-fx-background-color: rgba(0,0,0,0.3);" textAlignment="CENTER" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0">
+        <padding><Insets top="-1.0" /></padding>
+        <font><Font name="Roboto Medium" size="12.0" /></font>
+        <cursor><Cursor fx:constant="HAND" /></cursor>
+
+        <graphic><ImageView fitHeight="80.0" pickOnBounds="true" preserveRatio="true"><image>
+          <Image url="@../Images/top-button-back.png" />
+        </image></ImageView></graphic>
+      </Button>
+<!--
+      <Button id="top-button button-refresh" alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" mnemonicParsing="false" onAction="#UpdatedataButtonAction" prefHeight="80.0" style="-fx-background-color: rgba(0,0,0,0.3);" textAlignment="CENTER" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="10.0">
+        <padding><Insets top="-1.0" /></padding>
+        <font><Font name="Roboto Medium" size="12.0" /></font>
+        <cursor><Cursor fx:constant="HAND" /></cursor>
+
+        <graphic><ImageView fitWidth="80.0" pickOnBounds="true" preserveRatio="true"><image>
+          <Image url="@../Images/top-button-refresh.png" />
+        </image></ImageView></graphic>
+      </Button>
+-->
+      <Button id="top-button button-logout" alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" mnemonicParsing="false" onAction="#LogoutScreen" prefHeight="80.0" style="-fx-background-color: none;" textAlignment="CENTER" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+        <padding><Insets top="-1.0" /></padding>
+        <font><Font name="Roboto Medium" size="12.0" /></font>
+        <cursor><Cursor fx:constant="HAND" /></cursor>
+
+        <graphic><ImageView fitWidth="80.0" pickOnBounds="true" preserveRatio="true"><image>
+          <Image url="@../Images/top-button-logout.png" />
+        </image></ImageView></graphic>
+      </Button>
+    </AnchorPane>
+  </top>
+  <center>
+    <GridPane BorderPane.alignment="CENTER">
+      <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="200.0" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="150.0" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="150.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="200.0" />
+      </columnConstraints>
+      <rowConstraints>
+        <RowConstraints minHeight="10.0" prefHeight="120.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="400.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="-Infinity" minHeight="0.0" prefHeight="40.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="120.0" vgrow="SOMETIMES" />
+      </rowConstraints>
+
+      <TableView fx:id="userTable" editable="true" layoutX="110.0" layoutY="31.0" prefHeight="400.0" prefWidth="300.0" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="1">
+        <columns>
+          <TableColumn fx:id="userCol" onEditCommit="#updateUsername" prefWidth="75.0" text="User">
+            <cellValueFactory>
+              <PropertyValueFactory property="username" />
+            </cellValueFactory>
+          </TableColumn>
+          <TableColumn fx:id="passCol" onEditCommit="#updatePassword" prefWidth="75.0" text="Password">
+            <cellValueFactory>
+              <PropertyValueFactory property="password" />
+            </cellValueFactory>
+          </TableColumn>
+          <TableColumn fx:id="roleCol" onEditCommit="#updateRole" prefWidth="75.0" text="Role">
+            <cellValueFactory>
+              <PropertyValueFactory property="role" />
+            </cellValueFactory>
+          </TableColumn>
+        </columns>
+      </TableView>
+
+      <Button text="VOEG TOE" fx:id="addUser" onAction="#addNewUser" mnemonicParsing="false" prefHeight="40.0" prefWidth="300.0" style="-fx-background-color: #03A9F4;" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="3">
+        <font><Font name="Roboto Medium" size="14.0" /></font>
+        <cursor><Cursor fx:constant="HAND" /></cursor>
+      </Button>
+
+      <Button text="VERWIJDER" fx:id="DeleteButton" onAction="#removeAccount" layoutX="410.0" layoutY="403.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="110.0" style="-fx-background-color: none;" textFill="#00000060" GridPane.columnIndex="1" GridPane.rowIndex="3">
+        <font><Font name="Roboto Medium" size="14.0" /></font>
+        <GridPane.margin><Insets left="15.0" /></GridPane.margin>
+        <cursor><Cursor fx:constant="HAND" /></cursor>
+      </Button>
+
+    </GridPane>
+  </center>
+</BorderPane>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<?import javafx.scene.chart.StackedBarChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.chart.CategoryAxis?>
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Data_Project.VoorbeeldAnalyse">
+   <top>
+      <AnchorPane prefHeight="73.0" prefWidth="600.0" BorderPane.alignment="CENTER" />
+   </top>
+    <center>
+    <StackedBarChart fx:id="barChart2" BorderPane.alignment="CENTER">
+        <xAxis>
+            <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+            <NumberAxis side="LEFT" />
+        </yAxis>
+    </StackedBarChart>
+    </center>
+</BorderPane>

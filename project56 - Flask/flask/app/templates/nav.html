@@ -1,0 +1,48 @@
+{% from "macros/navlink.html" import nav_link with context %}
+
+{% macro nav_bar(name) %}
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-default sidebar" role="navigation">
+        <div class="sidebar-nav navbar-collapse">
+            <ul class="nav" id="side-menu">
+
+                <li>
+                    <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                </li>
+
+				<!------------------> 
+				                <li>
+                    <a href="#"><i class="fa fa-automobile fa-fw"></i> Unit Data<span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level">
+						{{nav_link(name="Car Status", url="cars.html", active=name)}}
+		
+                    </ul>
+                    <!-- /.nav-second-level -->
+                </li>
+				<!------------------> 
+
+				<!------------------> 
+				                <li>
+                    <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Meta Data<span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level">
+						{{nav_link(name="General", url="meta.html", active=name)}}
+
+                    </ul>
+                    <!-- /.nav-second-level -->
+                </li>
+				<!------------------> 
+				<!------------------> 
+				<!------------------> 
+				<!------------------> 
+				
+				
+               
+        
+            </ul>
+        </div>
+        <!-- /.sidebar-collapse -->
+    </div>
+    <!-- /.navbar-static-side -->
+</nav>
+{% endmacro %}

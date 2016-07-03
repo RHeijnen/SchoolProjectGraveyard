@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cv"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    card_view:cardCornerRadius="3dp"
+    card_view:cardElevation="1dp"
+    card_view:cardPreventCornerOverlap="false"
+    card_view:cardUseCompatPadding="true"
+    card_view:cardBackgroundColor="#FFF"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="0dp"
+    android:layout_marginTop="7dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cardInfo"
+        android:paddingLeft="0dp"
+        android:paddingRight="32dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="36dp"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/card_picture"
+            android:contentDescription="Photo"
+            android:background="#E5E5E5"
+            android:layout_marginTop="68dp"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/weetjeTitel"
+            android:textSize="22sp"
+            android:text="Titel"
+            android:alpha="0.7"
+            android:layout_toRightOf="@id/card_picture"
+            android:layout_alignTop="@id/card_picture"
+            android:layout_marginTop="-4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="16dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/weetjeContent"
+            android:text="Paraskevidekatriaphobia means fear of Friday the 13th, which occurs one to three times a year."
+            android:textSize="14sp"
+            android:alpha="0.5"
+            android:layout_alignLeft="@+id/weetjeTitel"
+            android:layout_below="@+id/weetjeTitel"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="top|right"
+        android:paddingLeft="24dp"
+        android:paddingRight="12dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:background="#FAFAFA">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/category_name"
+            android:textSize="14sp"
+            android:text="TODAY IN HISTORY"
+
+            android:layout_centerVertical="true"
+            android:layout_marginTop="0dp"
+            android:textStyle="bold"
+            android:alpha="0.2"
+            />
+
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:contentDescription="Favorite"
+            android:id="@+id/favButton"
+            android:background="#00000000"
+            android:src="@drawable/ic_favorites"
+            android:onClick="ManageFavorites"
+            android:clickable="true"
+            android:alpha="0.4"
+            android:layout_toLeftOf="@+id/ReportBut"
+            android:layout_marginTop="-0.5dp"
+            />
+
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:contentDescription="Report"
+            android:id="@+id/ReportBut"
+            android:background="#00000000"
+            android:src="@drawable/ic_report"
+            android:onClick="ReportAction"
+            android:alpha="0.4"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

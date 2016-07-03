@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" stylesheets="/Data_Project/sample.css" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Data_Project.AdminWindow">
+    <children>
+
+        <Label text="Username" GridPane.columnIndex="1" />
+        <TextField fx:id="userField" GridPane.columnIndex="2" />
+        <Label text="Password" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+        <PasswordField fx:id="passField" GridPane.columnIndex="2" GridPane.columnSpan="1" GridPane.rowIndex="2" />
+        <Button fx:id="AccountAddToDB" onAction="#addAccount" text="Voeg account toe" GridPane.columnIndex="2" GridPane.columnSpan="2" GridPane.rowIndex="6" />
+        <Label fx:id="errorLabel" textFill="#c30808" GridPane.columnIndex="2" GridPane.columnSpan="2" GridPane.rowIndex="6" />
+        <VBox spacing="5.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
+            <children>
+                <RadioButton fx:id="Administrator" mnemonicParsing="false" text="Administrator" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                    <toggleGroup>
+                        <ToggleGroup fx:id="roleGroup" />
+                    </toggleGroup>
+                </RadioButton>
+                <RadioButton fx:id="Analist" mnemonicParsing="false" text="Analist" toggleGroup="$roleGroup" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            </children>
+        </VBox>
+        <Label text="Role" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <Label fx:id="errorLabel" alignment="CENTER" prefHeight="17.0" prefWidth="118.0" text="Label" textFill="#c30808" visible="false" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+      <Label fx:id="passLabel" alignment="CENTER" prefHeight="17.0" prefWidth="118.0" text="Label" textFill="#3f901f" visible="false" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+    </children>
+    <columnConstraints>
+        <ColumnConstraints />
+        <ColumnConstraints />
+        <ColumnConstraints />
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+    </rowConstraints>
+
+</GridPane>

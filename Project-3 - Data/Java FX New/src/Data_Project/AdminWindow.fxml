@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="600.0" minWidth="810.0" prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: rgb(250,250,250);" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Data_Project.AdminWindow">
+    <top>
+        <AnchorPane maxHeight="-Infinity" prefHeight="100.0" style="-fx-background-color: rgba(0,0,0,0.8);" BorderPane.alignment="CENTER">
+            <Button id="top-button button-back" alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" mnemonicParsing="false" prefHeight="80.0" style="-fx-background-color: rgba(0,0,0,0.3);" textAlignment="CENTER" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0">
+                <padding><Insets top="-1.0" /></padding>
+                <font><Font name="Roboto Medium" size="12.0" /></font>
+                <cursor><Cursor fx:constant="HAND" /></cursor>
+
+                <graphic><ImageView fitHeight="80.0" pickOnBounds="true" preserveRatio="true"><image>
+                    <Image url="@../Images/top-button-back.png" />
+                </image></ImageView></graphic>
+            </Button>
+
+            <Button id="top-button button-logout" alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" mnemonicParsing="false" onAction="#LogoutScreen" prefHeight="80.0" style="-fx-background-color: none;" textAlignment="CENTER" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+                <padding><Insets top="-1.0" /></padding>
+                <font><Font name="Roboto Medium" size="12.0" /></font>
+                <cursor><Cursor fx:constant="HAND" /></cursor>
+
+                <graphic><ImageView fitWidth="80.0" pickOnBounds="true" preserveRatio="true"><image>
+                    <Image url="@../Images/top-button-logout.png" />
+                </image></ImageView></graphic>
+            </Button>
+        </AnchorPane>
+    </top>
+    <center>
+        <GridPane BorderPane.alignment="CENTER">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="150.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="200.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="2.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="200.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="150.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="150.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="15.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="40.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="-Infinity" minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="200.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+
+            <AnchorPane prefHeight="15.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                <Label layoutX="79.0" layoutY="2.0" text="BEHEER" textFill="#90a4ae">
+                    <font><Font name="Roboto Condensed Bold" size="13.0" /></font>
+                </Label>
+            </AnchorPane>
+
+            <AnchorPane prefHeight="15.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                <Label layoutX="75.0" layoutY="1.0" text="ANALYSE" textFill="#90a4ae">
+                    <font><Font name="Roboto Condensed Bold" size="13.0" /></font>
+                </Label>
+            </AnchorPane>
+
+            <Button text="ACCOUNTS" onAction="#EditUserDataButtonAction" mnemonicParsing="false" prefHeight="60.0" prefWidth="200.0" style="-fx-background-color: rgba(0,0,0,0); -fx-border-color: rgba(0,0,0,0.1); -fx-border-insets: -1; -fx-border-radius: 4; -fx-border-width: 1;" textFill="#000000b2" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                <font><Font name="Roboto Medium" size="14.0" /></font>
+                <GridPane.margin><Insets /></GridPane.margin>
+                <cursor><Cursor fx:constant="HAND" /></cursor>
+            </Button>
+
+            <Button text="LOCATIES" id="button-locatie" mnemonicParsing="false" prefHeight="60.0" prefWidth="200.0" style="-fx-background-color: rgba(0,0,0,0); -fx-border-color: rgba(0,0,0,0.1); -fx-border-insets: -1; -fx-border-radius: 4; -fx-border-width: 1;" textFill="#000000b2" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                <font><Font name="Roboto Medium" size="14.0" /></font>
+                <GridPane.margin><Insets /></GridPane.margin>
+                <cursor><Cursor fx:constant="HAND" /></cursor>
+            </Button>
+
+            <Button text="DATABASE" mnemonicParsing="false" prefHeight="60.0" prefWidth="200.0" style="-fx-background-color: rgba(0,0,0,0); -fx-border-color: rgba(0,0,0,0.1); -fx-border-insets: -1; -fx-border-radius: 4; -fx-border-width: 1;" textFill="#000000b2" GridPane.columnIndex="1" GridPane.rowIndex="7">
+                <font><Font name="Roboto Medium" size="14.0" /></font>
+                <GridPane.margin><Insets /></GridPane.margin>
+                <cursor><Cursor fx:constant="HAND" /></cursor>
+            </Button>
+
+            <Button text="ROTTERDAM CENTRAAL" mnemonicParsing="false" prefHeight="60.0" prefWidth="200.0" style="-fx-background-color: rgba(0,0,0,0); -fx-border-color: rgba(0,0,0,0.1); -fx-border-insets: -1; -fx-border-radius: 4; -fx-border-width: 1;" textFill="#000000b2" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                <cursor><Cursor fx:constant="HAND" /></cursor>
+                <font><Font name="Roboto Medium" size="14.0" /></font>
+                <GridPane.margin><Insets /></GridPane.margin>
+            </Button>
+
+            <Button text="ANDERE LOCATIE" disable="true" mnemonicParsing="false" prefHeight="60.0" prefWidth="200.0" style="-fx-background-color: rgba(0,0,0,0); -fx-border-color: rgba(0,0,0,0.1); -fx-border-insets: -1; -fx-border-radius: 4; -fx-border-width: 1;" textFill="#000000b2" GridPane.columnIndex="3" GridPane.rowIndex="5">
+                <cursor><Cursor fx:constant="HAND" /></cursor>
+                <font><Font name="Roboto Medium" size="14.0" /></font>
+            </Button>
+
+        </GridPane>
+    </center>
+</BorderPane>

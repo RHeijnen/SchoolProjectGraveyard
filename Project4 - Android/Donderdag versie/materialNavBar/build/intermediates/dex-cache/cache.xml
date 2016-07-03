@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/maartencorpel/AndroidStudioProjects/ProjectApp/Donderdag versie/materialNavBar/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/Users/maartencorpel/AndroidStudioProjects/ProjectApp/Donderdag versie/materialNavBar/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-d622fce2ed64b108426d0e0e7d2ea39ebff357a3.jar" />
+    </item>
+    <item
+        jar="/Users/maartencorpel/AndroidStudioProjects/ProjectApp/Donderdag versie/materialNavBar/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/Users/maartencorpel/AndroidStudioProjects/ProjectApp/Donderdag versie/materialNavBar/app/build/intermediates/pre-dexed/debug/classes-1baffdadc04ff183749a13cd604a1a5c2ca27bc3.jar" />
+    </item>
+    <item
+        jar="/Users/maartencorpel/AndroidStudioProjects/ProjectApp/Donderdag versie/materialNavBar/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/Users/maartencorpel/AndroidStudioProjects/ProjectApp/Donderdag versie/materialNavBar/app/build/intermediates/pre-dexed/debug/classes-47d90fc41e900980bac022995cdefd3d3117b53d.jar" />
+    </item>
+    <item
+        jar="/Users/maartencorpel/AndroidStudioProjects/ProjectApp/Donderdag versie/materialNavBar/app/lib/urlimageviewhelper-1.0.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="67125d743e0035a1b157ba8210c2abf1ff374e10">
+        <dex dex="/Users/maartencorpel/AndroidStudioProjects/ProjectApp/Donderdag versie/materialNavBar/app/build/intermediates/pre-dexed/debug/urlimageviewhelper-1.0.4-84df13386226aa5096bda746000b1638f8da7846.jar" />
+    </item>
+    <item
+        jar="/Users/maartencorpel/AndroidStudioProjects/ProjectApp/Donderdag versie/materialNavBar/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="/Users/maartencorpel/AndroidStudioProjects/ProjectApp/Donderdag versie/materialNavBar/app/build/intermediates/pre-dexed/debug/classes-10845757f8ab727fe0238364241275c119d727a6.jar" />
+    </item>
+    <item
+        jar="/Users/maartencorpel/AndroidStudioProjects/ProjectApp/Donderdag versie/materialNavBar/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="/Users/maartencorpel/AndroidStudioProjects/ProjectApp/Donderdag versie/materialNavBar/app/build/intermediates/pre-dexed/debug/classes-274af737eeb22ca4ed6c71c760ecfd7c20dba0d3.jar" />
+    </item>
+    <item
+        jar="/Users/maartencorpel/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/Users/maartencorpel/AndroidStudioProjects/ProjectApp/Donderdag versie/materialNavBar/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-f0bb421607a08a54c9487a4c9263bbf838669bd0.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import java.lang.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="526.0" prefWidth="923.0" stylesheets="/Data_Project/sample.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Data_Project.AnalistController">
+   <children>
+      <Button layoutX="29.0" layoutY="163.0" mnemonicParsing="false" onAction="#WeerButtonAction" text="Refresh" />
+      <Button layoutX="29.0" layoutY="117.0" mnemonicParsing="false" onAction="#FacebookButtonAction" text="Facebook Data" />
+      <Button layoutX="29.0" layoutY="71.0" mnemonicParsing="false" onAction="#HashtaggButtonAction" text="Zoek op Hashtagg" />
+      <Button layoutX="94.0" layoutY="163.0" mnemonicParsing="false" onAction="#dataButtonAction" text="test" />
+      <Button fx:id="Logoutnee" layoutX="850.0" layoutY="14.0" mnemonicParsing="false" onAction="#logoutButtonAction" text="logout" />
+      <TextArea id="outputTempArea" fx:id="outputTempArea" editable="false" layoutX="571.0" layoutY="193.0" prefHeight="25.0" prefWidth="173.0" />
+      <Button layoutX="29.0" layoutY="27.0" mnemonicParsing="false" onAction="#PlacesButtonAction" text="Google Data" />
+      <Label layoutX="582.0" layoutY="19.0" text="Huidige weersverwachting" />
+         <ImageView fitWidth="150" layoutX="582.0" layoutY="55.0" preserveRatio="true" smooth="true">
+             <image>
+                 <Image url="@../../../Images/2013_BR_forecast-iconen_o.png" />
+             </image>
+         </ImageView>
+      <PieChart />
+      <PieChart id="Piechart" layoutX="486.0" layoutY="237.0" prefHeight="275.0" prefWidth="343.0" title="Social medium content" />
+   </children>
+
+</Pane>

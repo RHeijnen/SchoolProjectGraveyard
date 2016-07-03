@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Data_Project.TestWindowController">
+  <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <CheckBox fx:id="FCB1" mnemonicParsing="false" text="Twitter" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="1" />
+      <CheckBox fx:id="FCB2" mnemonicParsing="false" text="Facebook" GridPane.columnIndex="3" GridPane.columnSpan="2" GridPane.rowIndex="1" />
+       <CheckBox fx:id="FCB3" mnemonicParsing="false" text="Google" GridPane.columnIndex="5" GridPane.columnSpan="2" GridPane.rowIndex="1" />
+       <CheckBox fx:id="FCB4" mnemonicParsing="false" text="Positief" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="3" />
+      <CheckBox fx:id="FCB5" mnemonicParsing="false" text="Negatief" GridPane.columnIndex="3" GridPane.columnSpan="2" GridPane.rowIndex="3" />
+      <CheckBox fx:id="FCB6" mnemonicParsing="false" text="temp &lt; 0" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="5" />
+      <CheckBox fx:id="FCB7" mnemonicParsing="false" text="temp &gt;0 tot 15" GridPane.columnIndex="1" GridPane.columnSpan="3" GridPane.rowIndex="6" />
+      <CheckBox fx:id="FCB8" mnemonicParsing="false" text="temp 15 &gt;" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="7" />
+      <CheckBox fx:id="FCB9" mnemonicParsing="false" text="Zon" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="9" />
+      <CheckBox fx:id="FCB10" mnemonicParsing="false" text="Regen" GridPane.columnIndex="1" GridPane.columnSpan="3" GridPane.rowIndex="10" />
+      <CheckBox fx:id="FCB11" mnemonicParsing="false" text="Mist" GridPane.columnIndex="1" GridPane.rowIndex="11" />
+      <CheckBox fx:id="FCB12" mnemonicParsing="false" text="Hagel" GridPane.columnIndex="3" GridPane.columnSpan="3" GridPane.rowIndex="9" />
+      <CheckBox fx:id="FCB13" mnemonicParsing="false" text="Sneeuw" GridPane.columnIndex="3" GridPane.columnSpan="3" GridPane.rowIndex="10" /><Button mnemonicParsing="false" onAction="#testbutton" text="Button" GridPane.columnIndex="7" GridPane.columnSpan="2" GridPane.rowIndex="3" />
+      <CheckBox fx:id="FCB14" mnemonicParsing="false" text="Storm" GridPane.columnIndex="3" GridPane.columnSpan="2" GridPane.rowIndex="11" />
+   </children>
+</GridPane>

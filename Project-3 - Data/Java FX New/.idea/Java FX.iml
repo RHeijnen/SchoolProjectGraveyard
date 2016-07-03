@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file:///production/Java FX" />
+    <output-test url="file:///test/Java FX" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Java FX/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/Java FX/out" />
+    </content>
+    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../Mysql lib/mysql.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../Libs/commons-logging-1.1.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Libs/facebook4j-core-2.2.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Libs/google-http-client-1.18.0-rc.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Libs/google-http-client-android-1.18.0-rc.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Libs/google-http-client-appengine-1.18.0-rc.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Libs/google-http-client-gson-1.18.0-rc.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Libs/google-http-client-jackson-1.18.0-rc.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Libs/google-http-client-jackson2-1.18.0-rc.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Libs/google-http-client-jdo-1.18.0-rc.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Libs/google-http-client-protobuf-1.18.0-rc.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Libs/google-http-client-xml-1.18.0-rc.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Libs/google-places-api-java.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Libs/gson-2.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Libs/httpclient-4.0.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Libs/httpcore-4.0.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Libs/jackson-core-2.1.3.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Libs/jackson-core-asl-1.9.11.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Libs/jdo2-api-2.3-eb.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Libs/jsr305-1.3.9.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Libs/owm-japis-2.5.0.5.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Libs/protobuf-java-2.4.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Libs/transaction-api-1.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Libs/twitter4j-async-4.0.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Libs/twitter4j-core-4.0.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Libs/twitter4j-examples-4.0.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Libs/twitter4j-media-support-4.0.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Libs/twitter4j-stream-4.0.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/../Libs/xpp3-1.1.4c.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../Libs/jsr305-1.3.9.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

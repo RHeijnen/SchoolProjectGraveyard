@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="398.0" prefWidth="923.0" stylesheets="/Data_Project/sample.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Data_Project.AnalistController">
+   <children>
+      <Label layoutX="360.0" layoutY="30.0" text="Huidige weersverwachting" />
+      <TextArea id="outputTextArea" fx:id="outputTextArea" editable="false" layoutX="506.0" layoutY="76.0" prefHeight="308.0" prefWidth="403.0" promptText="Zoek resultaten" />
+      <TextArea id="outputTempArea" fx:id="outputTempArea" editable="false" layoutX="506.0" layoutY="19.0" prefHeight="39.0" prefWidth="403.0" />
+      <TextField id="inputTextArea" fx:id="inputTextArea" layoutX="26.0" layoutY="26.0" promptText="..." />
+      <Button fx:id="Logout" layoutX="55.0" layoutY="291.0" mnemonicParsing="false" onAction="#logoutButtonAction" text="logout" />
+      <Button layoutX="26.0" layoutY="64.0" mnemonicParsing="false" onAction="#HashtaggButtonAction" text="Zoek op Hashtagg" />
+      <Button layoutX="26.0" layoutY="105.0" mnemonicParsing="false" onAction="#PlacesButtonAction" text="Zoek op Google+" />
+      <Button layoutX="26.0" layoutY="146.0" mnemonicParsing="false" onAction="#FacebookButtonAction" text="Zoek op Facebook" />
+      <Button layoutX="392.0" layoutY="52.0" mnemonicParsing="false" onAction="#WeerButtonAction" text="Refresh" />
+      <Button layoutX="183.0" layoutY="26.0" mnemonicParsing="false" onAction="#TwitzoekButtonAction" text="Zoek op Twitter Username" />
+      <Button layoutX="394.0" layoutY="93.0" mnemonicParsing="false" onAction="#UpdateWeather" text="SQL" />
+   </children>
+</Pane>

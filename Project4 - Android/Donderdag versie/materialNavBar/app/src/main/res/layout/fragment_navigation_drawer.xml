@@ -1,0 +1,73 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/containerDrawerImage"
+    android:orientation="vertical"
+    android:background="#FFF"
+    tools:context="info.androidhive.materialnavbar.fragment.NavigationDrawerFragment"
+    android:elevation="10dp">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="180dp">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:contentDescription="@string/none"
+                android:id="@+id/nav_header"
+                android:src="@drawable/header_juli"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/textView_imageOverlay_month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="22dp"
+                android:layout_marginBottom="50dp"
+                android:textSize="22sp"
+                android:textColor="#FFF"
+                android:fontFamily="sans-serif-light"
+                android:text="Thursday 2nd"
+
+                android:shadowRadius="10"
+                android:shadowDx="0"
+                android:shadowDy="4"
+                android:shadowColor="#32000000"/>
+
+            <TextView
+                android:id="@+id/textView_imageOverlay_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="22dp"
+                android:layout_marginBottom="24dp"
+                android:textSize="22sp"
+                android:textColor="#FFF"
+                android:fontFamily="sans-serif-light"
+                android:text="July 2015"
+
+                android:shadowRadius="10"
+                android:shadowDx="0"
+                android:shadowDy="4"
+                android:shadowColor="#32000000"/>
+
+        </RelativeLayout>
+
+
+        <ListView
+            android:layout_marginTop="8dp"
+            android:id="@+id/listViewId"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:divider="#00000000"
+            android:listSelector="#27000000"
+            >
+
+
+        </ListView>
+
+    </LinearLayout>

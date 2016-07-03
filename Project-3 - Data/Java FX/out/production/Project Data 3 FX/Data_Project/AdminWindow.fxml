@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<GridPane alignment="center" hgap="10" stylesheets="/Data_Project/sample.css" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Data_Project.AdminWindow">
+   <rowConstraints>
+      <RowConstraints  />
+      <RowConstraints  />
+      <RowConstraints  />
+      <RowConstraints  />
+   </rowConstraints>
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <children>
+      <Button fx:id="AddAccount" mnemonicParsing="false" text="Voeg Account Toe" GridPane.columnIndex="1" GridPane.rowIndex="1" onAction="#AccountInterface"/>
+      <Button fx:id="Grafiek" mnemonicParsing="false" text="Grafiek" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+      <Button fx:id="RefreshData" mnemonicParsing="false" text="Refresh Data" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <Button fx:id="Logout" mnemonicParsing="false" text="Logout" onAction="#LogoutScreen" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+   </children>
+</GridPane>

@@ -1,0 +1,38 @@
+<component name="libraryTable">
+  <library name="commons-logging-1.1.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Libs/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Libs/facebook4j-core-2.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Libs/google-http-client-1.18.0-rc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Libs/google-http-client-android-1.18.0-rc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Libs/google-http-client-appengine-1.18.0-rc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Libs/google-http-client-gson-1.18.0-rc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Libs/google-http-client-jackson-1.18.0-rc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Libs/google-http-client-jackson2-1.18.0-rc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Libs/google-http-client-jdo-1.18.0-rc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Libs/google-http-client-protobuf-1.18.0-rc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Libs/google-http-client-xml-1.18.0-rc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Libs/google-places-api-java.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Libs/gson-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Libs/httpclient-4.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Libs/httpcore-4.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Libs/jackson-core-2.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Libs/jackson-core-asl-1.9.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Libs/jdo2-api-2.3-eb.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Libs/jsr305-1.3.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Libs/owm-japis-2.5.0.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Libs/protobuf-java-2.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Libs/transaction-api-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Libs/twitter4j-async-4.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Libs/twitter4j-core-4.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Libs/twitter4j-examples-4.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Libs/twitter4j-media-support-4.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Libs/twitter4j-stream-4.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../Libs/xpp3-1.1.4c.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../Libs/jsr305-1.3.9.jar!/" />
+    </SOURCES>
+  </library>
+</component>

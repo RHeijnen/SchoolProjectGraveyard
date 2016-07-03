@@ -1,0 +1,15 @@
+
+Drizzle
+Rain
+Snow
+Atmosphere
+
+mist
+clear sky
+tornado
+tropical storm
+hurricane
+cold
+hot
+windy
+hail

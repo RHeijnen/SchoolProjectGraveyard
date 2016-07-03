@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="java">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/Desktop/Java apis libraries/j4twitter/twitter4j-core/src/internal-async/java" />
+      <root url="file://$USER_HOME$/Desktop/Java apis libraries/j4twitter/twitter4j-core/src/internal-http/java" />
+      <root url="file://$USER_HOME$/Desktop/Java apis libraries/j4twitter/twitter4j-core/src/internal-json/java" />
+      <root url="file://$USER_HOME$/Desktop/Java apis libraries/j4twitter/twitter4j-core/src/internal-logging/java" />
+      <root url="file://$USER_HOME$/Desktop/Java apis libraries/j4twitter/twitter4j-core/src/internal-util/java" />
+      <root url="file://$USER_HOME$/Desktop/Java apis libraries/j4twitter/twitter4j-core/src/jmx/java" />
+      <root url="file://$USER_HOME$/Desktop/Java apis libraries/j4twitter/twitter4j-core/src/main/java" />
+      <root url="file://$USER_HOME$/Desktop/Java apis libraries/j4twitter/twitter4j-core/src/test/java" />
+    </SOURCES>
+  </library>
+</component>
